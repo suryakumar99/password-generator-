@@ -1,4 +1,5 @@
-# password-generator-
+# password-generator
+import random
 def passwordGenerator(passLen, passType):
     DIGITS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'] 
     LOCASE_CHARACTERS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 
@@ -55,3 +56,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+Output:
+
+Type ( H for Hard, M for Medium and E for Easy)
+Enter type pasword type: 
+H
+Password:  utb@8QVW:Cak1Ra
+
+Process finished with exit code 0
+
